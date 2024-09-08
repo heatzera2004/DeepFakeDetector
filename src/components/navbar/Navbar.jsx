@@ -15,16 +15,16 @@ const Navbar = () => {
               AI-Detector
             </div>
             <div className="hidden md:block ml-10 space-x-8">
-              <a href="#" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
+              {/* <a href="#" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
                 Home
-              </a>
-              <a href="#" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
+              </a> */}
+              <a href="/features" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
                 Features
               </a>
-              <a href="#" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
+              <a href="/howitworks" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
                 How it Works
               </a>
-              <a href="#" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
+              <a href="/aboutus" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
                 About Us
               </a>
             </div>
