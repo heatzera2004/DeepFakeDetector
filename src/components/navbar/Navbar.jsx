@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate , Link} from 'react-router-dom';
+import { FaKeycdn } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,19 +9,28 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-900 text-white shadow-xl">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-3">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <div className="text-3xl font-extrabold text-neon-blue-400 tracking-wider">
-              AI-Detector
-            </div>
+          <div className="flex items-center"> 
+            <Link to="/" className='flex items-center gap-2'>
+              <FaKeycdn className="text-5xl text-teal-500 p-2 bg-gray-800 rounded-full shadow-lg" />
+              <div className="text-3xl font-extrabold text-neon-blue-400 tracking-wider">
+                FakeFinder
+              </div>
+            </Link>
             <div className="hidden md:block ml-10 space-x-8">
               {/* <a href="#" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
                 Home
               </a> */}
-              <a href="/features" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
-                Features
+              <a href="/casestudy" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
+                Case Study
               </a>
+              <a href="/forum" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
+                Forum
+              </a>
+              {/* <a href="/features" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
+                Features
+              </a> */}
               <a href="/howitworks" className="text-gray-300 hover:text-neon-blue-400 transition-all duration-300">
                 How it Works
               </a>

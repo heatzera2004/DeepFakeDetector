@@ -9,13 +9,14 @@ const Home = () => {
       <section className="py-20 bg-gradient-to-r from-teal-500 via-blue-500 to-purple-500 text-center relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold text-white leading-tight animate-fade-in">
-            Revolutionize Your Media Security
+            Unmask the Truth with AI
           </h1>
           <p className="mt-4 text-lg text-gray-200 animate-slide-up">
-            Leverage AI to identify deepfakes with unparalleled accuracy.
+            Deepfake Detection: Protecting Reality in a Digital World
           </p>
-          <button className="mt-8 bg-white text-gray-900 hover:bg-gray-200 py-3 px-8 rounded-md shadow-lg transition-transform duration-300 transform hover:scale-105">
-            Try It Now
+          
+          <button className="mt-8 bg-gradient-to-r from-teal-400 via-blue-400 to-purple-400 hover:from-teal-500 hover:via-blue-500 hover:to-purple-500 text-white py-3 px-8 rounded-md shadow-lg transition-transform duration-300 transform hover:scale-105">
+            Get Started
           </button>
         </div>
         <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-black to-transparent"></div>
@@ -32,7 +33,7 @@ const Home = () => {
               <p className="mt-2 text-gray-400">Top-notch AI algorithms for high accuracy in deepfake detection.</p>
             </div>
             <div className="text-center transform hover:scale-105 transition-transform duration-300 bg-gray-900 p-6 rounded-lg shadow-lg">
-              <div className="text-6xl text-teal-400 mb-4">&#128267;</div>
+             <div className="text-6xl text-teal-400 mb-4">&#128267;</div>
               <h3 className="text-xl font-medium text-white">Instant Results</h3>
               <p className="mt-2 text-gray-400">Receive immediate analysis of your media content.</p>
             </div>
@@ -48,10 +49,10 @@ const Home = () => {
       {/* Call to Action Section */}
       <section className="bg-gray-900 py-16 text-center">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-semibold text-white mb-4">Get Started Today!</h2>
+          <h2 className="text-3xl font-semibold text-white mb-4">Know More About DeepFakes.</h2>
           <p className="text-gray-400 mb-8">Join thousands of users in securing your media with our powerful tool.</p>
           <button className="bg-gradient-to-r from-teal-400 via-blue-400 to-purple-400 hover:from-teal-500 hover:via-blue-500 hover:to-purple-500 text-white py-3 px-8 rounded-md shadow-lg transition-transform duration-300 transform hover:scale-105">
-            Start Free Trial
+            Know More!
           </button>
         </div>
       </section>
