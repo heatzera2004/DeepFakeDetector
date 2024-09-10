@@ -40,16 +40,16 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold text-neon-blue-400 mb-4">Follow Us</h3>
             <div className="flex space-x-6">
-              <a href="#" className="hover:text-neon-blue-400 transition-colors duration-300">
+              <a  className="hover:text-neon-blue-400 transition-colors duration-300">
                 <FaFacebook size={24} />
               </a>
-              <a href="#" className="hover:text-neon-blue-400 transition-colors duration-300">
+              <a  className="hover:text-neon-blue-400 transition-colors duration-300">
                 <FaTwitter size={24} />
               </a>
-              <a href="#" className="hover:text-neon-blue-400 transition-colors duration-300">
+              <a  className="hover:text-neon-blue-400 transition-colors duration-300">
                 <FaInstagram size={24} />
               </a>
-              <a href="#" className="hover:text-neon-blue-400 transition-colors duration-300">
+              <a  className="hover:text-neon-blue-400 transition-colors duration-300">
                 <FaLinkedin size={24} />
               </a>
             </div>
